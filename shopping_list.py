@@ -13,3 +13,4 @@ for store, items in shopping_dict.items():
     for i in items:
         num_items.append(i)
     print(f"Idę do {store.title()} i kupuję {item_list}.")
+print(f"W sumie kupuję {len(num_items)} produktów.")
